@@ -6,3 +6,10 @@ body {
     display: block;
     margin: 8px;
 }
+
+.centered {
+    display: block; /* Ensures it behaves like a block element */
+    margin: 20px auto; /* Centers horizontally */
+    padding-top: 20px; /* Adds some space above the content */
+    text-align: center; /* Just for good measure */
+}
